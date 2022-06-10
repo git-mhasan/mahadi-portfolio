@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from './../../logo.svg';
+import logo from './../logo.svg';
+import resume from '../assets/doc/Mahadi_Resume_June-2022.pdf';
 
 
 const Navbar = () => {
@@ -9,11 +10,11 @@ const Navbar = () => {
 
     const menuItem = <>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/purchase">Projects</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
         <li><Link to="/blogs">Blogs</Link></li>
         <li><Link to="/about">About</Link></li>
-        <div class="tooltip tooltip-bottom" data-tip="Download">
-            <li><Link to="/resume">Resume</Link></li>
+        <div className="tooltip tooltip-left" data-tip="Download">
+            <li><a href={resume} download>Resume</a></li>
         </div>
 
     </>
@@ -21,7 +22,9 @@ const Navbar = () => {
     return (
         <div className="navbar bg-base-100">
             <div className="flex-1">
-                <Link to="" className="btn btn-ghost normal-case text-2xl ite"><img src={logo} style={{ width: "35px", height: "35px", marginRight: "8px", fontSize: "65px" }} alt="" /> Mahadi Hasan </Link>
+                <Link to="" className="btn btn-ghost normal-case text-4xl">
+                    {/* <img src={logo} style={{ width: "35px", height: "35px", marginRight: "8px", fontSize: "65px" }} alt="" /> */}
+                    Mahadi Hasan </Link>
             </div>
             <div className="md:flex navbar-end hidden">
                 <ul className="menu menu-horizontal p-0">
