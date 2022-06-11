@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import logo from './../logo.svg';
+// import logo from './../logo.svg';
 import resume from '../assets/doc/Mahadi_Resume_June-2022.pdf';
 
 

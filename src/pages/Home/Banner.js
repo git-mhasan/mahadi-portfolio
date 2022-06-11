@@ -15,14 +15,14 @@ const Banner = () => {
                     <div className='pl-3 border-l-4 border-accent'>
                         <h1 className='text-5xl font-bold'>Hi, I am Mahadi</h1>
 
-                        <h1 className='mt-3 ml-1 text-2xl font-bold text-accent'>
+                        <div className='mt-3 ml-1 text-2xl font-bold text-accent'>
                             [    <TypeAnimation
                                 className="inline"
                                 cursor={false}
                                 sequence={['A full stack web developer', 1000, '']}
                                 repeat={Infinity}
                                 wrapper="h2"
-                            /> ] </h1>
+                            /> ] </div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "1",
+        "projName": "Horizon Ltd.",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam doloremque beatae hic officia sint?",
+        "tech": " React, ExpressJS, Tailwind, Firebase, MongoDB, JSON Web Token, React Query etc.",
+        "img": "./images/webss-1.png",
+        "liveLink": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeClient": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeServer": "https://api.lorem.space/image/album?w=400&h=400"
+    },
+    {
+        "_id": "2",
+        "projName": "Green Tech",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam doloremque beatae hic officia sint?",
+        "tech": "React, ExpressJS, Vanilla CSS, Firebase, MongoDB, JSON Web Token etc.",
+        "img": "./images/webss-2.png",
+        "liveLink": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeClient": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeServer": "https://api.lorem.space/image/album?w=400&h=400"
+    },
+    {
+        "_id": "3",
+        "projName": "Construction Consultant",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam doloremque beatae hic officia sint?",
+        "tech": "React, Bootstrap, Firebase, React Router etc.",
+        "img": "./images/webss-1.png",
+        "liveLink": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeClient": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeServer": "https://api.lorem.space/image/album?w=400&h=400"
+    },
+    {
+        "_id": "4",
+        "projName": "Mobile Mania",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam doloremque beatae hic officia sint?",
+        "tech": "React, Bootstrap, React Router etc.",
+        "img": "./images/webss-1.png",
+        "liveLink": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeClient": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeServer": "https://api.lorem.space/image/album?w=400&h=400"
+    },
+    {
+        "_id": "5",
+        "projName": "Horizon Ltd.",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum quisquam doloremque beatae hic officia sint?",
+        "tech": "React, Bootstrap, React Router etc.",
+        "img": "./images/webss-1.png",
+        "liveLink": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeClient": "https://api.lorem.space/image/album?w=400&h=400",
+        "codeServer": "https://api.lorem.space/image/album?w=400&h=400"
+    }
+]

@@ -3,6 +3,7 @@ import useProjects from '../../hooks/useProjects';
 import ProjectCard from '../../shared/ProjectCard';
 
 const Projects = () => {
+
     const projects = useProjects();
 
     return (
